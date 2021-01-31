@@ -65,8 +65,7 @@ class HomeView extends StatelessWidget {
           children: <Widget>[
             GestureDetector(
               onTap: () {
-                _launchURL(
-                    'https://www.linkedin.com/in/abdallah-al-hallak-6b72b91b1/');
+                _launchURL('https://www.facebook.com/BODEHALLAK');
               },
               child: Image.asset(
                 'assets/facebook.png',
@@ -97,7 +96,8 @@ class HomeView extends StatelessWidget {
         ),
         GestureDetector(
           onTap: () {
-            _launchURL('');
+            _launchURL(
+                'https://drive.google.com/file/d/1SVJkh4I9THw7rL0ZfdMgp3S43MMdJNqT/view?usp=sharing');
           },
           child: Container(
             padding: EdgeInsets.symmetric(
